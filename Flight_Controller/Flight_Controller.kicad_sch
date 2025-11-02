@@ -1,0 +1,144 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3123f2cb-78a6-4981-b5e0-0579d92c2f51")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 118.11 58.42)
+		(size 26.67 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "790cb550-c85c-41cd-a840-b3774f776df4")
+		(property "Sheetname" "Microcontroller"
+			(at 118.11 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 118.11 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/3123f2cb-78a6-4981-b5e0-0579d92c2f51"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 88.9)
+		(size 29.21 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79eac9f3-e44a-4bb2-8658-c2e73adee47d")
+		(property "Sheetname" "IMU"
+			(at 78.74 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 78.74 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/3123f2cb-78a6-4981-b5e0-0579d92c2f51"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 93.98)
+		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7aa0dc01-0fe3-40c7-88f4-175288236c10")
+		(property "Sheetname" "Power"
+			(at 170.18 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 170.18 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/3123f2cb-78a6-4981-b5e0-0579d92c2f51"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
