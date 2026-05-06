@@ -1,6 +1,9 @@
+
 # DIY Quadcopter
 
-A from-scratch DIY quadcopter with a custom-designed flight computer PCB and custom frame CAD. The ESC is off-the-shelf; everything else was built from the ground up.
+A from-scratch DIY quadcopter with a custom-designed flight computer PCB and custom frame CAD. Everything except the ESC was built from the ground up.
+<img width="2672" height="1896" alt="drone" src="https://github.com/user-attachments/assets/533495d8-11f4-48ac-8c42-4f8e19de8243" />
+
 
 ## Overview
 
