@@ -4,7 +4,7 @@ A from-scratch DIY quadcopter with a custom-designed flight computer PCB and cus
 
 ## Overview
 
-This repository contains the KiCad hardware design files for the custom flight controller PCB and the Arduino/PlatformIO firmware that runs on it. The flight controller interfaces with four off-the-shelf ESCs, an RC receiver via CRSF/ExpressLRS, and an onboard 6-axis IMU to stabilize and control the drone.
+This repository contains the KiCad hardware design files for the custom flight controller PCB and the Arduino/PlatformIO firmware that runs on it. The flight controller interfaces a four channel off-the-shelf ESC, an RC receiver via CRSF/ExpressLRS, and an onboard 6-axis IMU to stabilize and control the drone.
 
 ## Hardware
 
@@ -20,7 +20,7 @@ This repository contains the KiCad hardware design files for the custom flight c
 | Transient protection | SMAJ14A TVS diode | Input voltage spike protection |
 
 ### Interfaces
-- **4× ESC connectors** (Motor 1–4) — off-the-shelf ESCs
+- **4× ESC connectors** (Motor 1–4) — off-the-shelf 4 channel ESC
 - **RC receiver connector** — CRSF/ExpressLRS
 - **Electromagnet connector** — payload drop mechanism
 - **SPI** — IMU (LSM6DSO32TR on SPI1)
